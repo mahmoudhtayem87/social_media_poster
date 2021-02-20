@@ -1,0 +1,3 @@
+Bundle-Name: SocialMediaPoster
+Bundle-SymbolicName: com.liferay.socialMedia.model.listener
+Bundle-Version: 1.0.0
