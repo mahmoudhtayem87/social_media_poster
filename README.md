@@ -1,44 +1,22 @@
-usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
-           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
-           <command> [<args>]
+# Social Media Poster
 
-These are common Git commands used in various situations:
+A Module listener which has been created to demonstrate how to automate social media posting for a content article, once the article is created or modified, a new post on FaceBook page will be created, the implementation is open to be extended to include linked, twitter, or any other social media network.
 
-start a working area (see also: git help tutorial)
-   clone     Clone a repository into a new directory
-   init      Create an empty Git repository or reinitialize an existing one
 
-work on the current change (see also: git help everyday)
-   add       Add file contents to the index
-   mv        Move or rename a file, a directory, or a symlink
-   restore   Restore working tree files
-   rm        Remove files from the working tree and from the index
 
-examine the history and state (see also: git help revisions)
-   bisect    Use binary search to find the commit that introduced a bug
-   diff      Show changes between commits, commit and working tree, etc
-   grep      Print lines matching a pattern
-   log       Show commit logs
-   show      Show various types of objects
-   status    Show the working tree status
+## Configurations
 
-grow, mark and tweak your common history
-   branch    List, create, or delete branches
-   commit    Record changes to the repository
-   merge     Join two or more development histories together
-   rebase    Reapply commits on top of another base tip
-   reset     Reset current HEAD to the specified state
-   switch    Switch branches
-   tag       Create, list, delete or verify a tag object signed with GPG
+-	social-media-posts-ids-field-id: create a string field in your structure to store social media posts ids for the current article
+-	facebook-page-access-token: Page access token is required to allow liferay to post feed on your business page
+-	facebook-page-id: Page ID is required to allow liferay to post feed on your business page
+-	social-media-posting-active: enable or disable the social media posting
+-	publishing-approval-required: indicate whether an approval workflow is required to post to social media or not
+-	facebook-active: enable or disable the social media posting on Facebook
+-	Web-Content-Structure-ID: Web content structure to be monitored for social media posting
+-	post-link-base-address: display page base address, the address should starts at http-> ends with /-/, where it will be concatenated with the article Title URL
+-	post-to-facebook-field-id: create a Boolean field in your structure to enable or disable Facebook posting for the current article, if this field left empty, it means post all to Facebook
 
-collaborate (see also: git help workflows)
-   fetch     Download objects and refs from another repository
-   pull      Fetch from and integrate with another repository or a local branch
-   push      Update remote refs along with associated objects
-
-'git help -a' and 'git help -g' list available subcommands and some
-concept guides. See 'git help <command>' or 'git help <concept>'
-to read about a specific subcommand or concept.
-See 'git help git' for an overview of the system.
+## Screenshots
+[![Screen-Shot-2021-03-10-at-1-36-51-PM.png](https://i.postimg.cc/s1dgPqrM/Screen-Shot-2021-03-10-at-1-36-51-PM.png)](https://postimg.cc/RJdm4Pqm)
+[![Screen-Shot-2021-03-10-at-1-37-41-PM.png](https://i.postimg.cc/Hk8f1nb1/Screen-Shot-2021-03-10-at-1-37-41-PM.png)](https://postimg.cc/VJ17jY7K)
+[![Screen-Shot-2021-03-10-at-1-41-02-PM.png](https://i.postimg.cc/FRTPLX0x/Screen-Shot-2021-03-10-at-1-41-02-PM.png)](https://postimg.cc/0MJGT3W6)
