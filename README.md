@@ -5,21 +5,6 @@ A Module listener which has been created to demonstrate how to automate social m
 ## Facebook developer account
 Learn how to setup a [FB developer account](docs/facebook.md)
 
-## How to obtain long live page access token (valid for 60 days)
-1. First obtain Short Lived User access token using https://developers.facebook.com/tools/explorer
-
-1. Obtain Long Lived User Access token (valid for 60 days)
-1. 
-
-curl -i -X GET "https://graph.facebook.com/oauth/access_token?grant_type=fb_exchange_token&client_id=2615708165394466&client_secret=eca4ee72be948406e14112fec686231a&fb_exchange_token=EAAlKZBQQI0CIBAMBsPAmrVbuqthtEQ89BcMSn0ZAIjEvnnbkCDWyJaaTOINmjGEQo2aHrBjdhwjLdKV7v9Yi0blX0NngAHnOPjgZBgZCJGBGTWMoGR7yxgNhQg0qcsNcDHEPEBJTUZA3e45sLYqOtkMe56j8CYin5A6XxOZAZBk0n2VjRT4aVxzMGQdpzHRptanRXmZBiJkEQzZC8ZCtGv2WfL"
-
-EAAlKZBQQI0CIBAMBsPAmrVbuqthtEQ89BcMSn0ZAIjEvnnbkCDWyJaaTOINmjGEQo2aHrBjdhwjLdKV7v9Yi0blX0NngAHnOPjgZBgZCJGBGTWMoGR7yxgNhQg0qcsNcDHEPEBJTUZA3e45sLYqOtkMe56j8CYin5A6XxOZAZBk0n2VjRT4aVxzMGQdpzHRptanRXmZBiJkEQzZC8ZCtGv2WfL
-
-
-ACCESS TOKEN: EAAlKZBQQI0CIBAH6ltn0ACDMcvlsu3qP3ym7GcwJQZCeYLk8EjHkT86t6tQIh4apwu3uZCZBZAtpgKNUi2aT4nUcViisGB025AuMtrPV3ZBrKJzJkPSxSQeMZBFYzPTuj8k5fXfSe30Wj5f6F4W8heE8em6wE4V7c1Y2dB0CH3dQgN5Bs6ZCiqfZB
-
-
-
 ## Configurations
 
 -	social-media-posts-ids-field-id: create a string field in your structure to store social media posts ids for the current article
