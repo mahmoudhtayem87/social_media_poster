@@ -2,7 +2,8 @@
 
 A Module listener which has been created to demonstrate how to automate social media posting for a content article, once the article is created or modified, a new post on FaceBook page will be created, the implementation is open to be extended to include linked, twitter, or any other social media network.
 
-
+## Facebook developer account
+Learn how to setup a [FB developer account](docs/facebook.md)
 
 ## Configurations
 
